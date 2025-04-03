@@ -19,12 +19,8 @@ h1 {
     border-radius: 1000px;
 }
 
-p {
-    color: green;
-}
-
 div {
-    background-color: rgb(203, 237, 254);
+    background-color: lightgrey;
     width: 200px;
     padding: 10px;
     border-radius: 16px;
@@ -35,4 +31,28 @@ section {
     justify-content: center;
     align-items: stretch;
     gap: 20px;
+}
+
+.grøn {
+    background-color: rgb(209, 255, 209);
+}
+
+.orange {
+    background-color: rgb(255, 228, 179);
+}
+
+.blå {
+    background-color: rgb(179, 206, 255);
+}
+
+.grøn * {
+    color: green;
+}
+
+.orange * {
+    color: orange;
+}
+
+.blå * {
+    color: rgb(22, 108, 255);
 }
